@@ -1,0 +1,7 @@
+@media (max-width: 760px) {
+    .subjects{
+        flex-direction: column;
+        height: auto;
+        overflow-y: auto;
+    }
+}
