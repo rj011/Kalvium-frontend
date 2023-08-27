@@ -18,16 +18,15 @@ const Home = () => {
       </div>
       <div className='subjects' style={{position: 'relative', zIndex: '100', bottom: '50%', width: '100%',height:'50vh', display: 'flex', justifyContent:'center',alignItems: 'center', flexWrap:'wrap'}}>
         {/* height and wrap for hscroll in phone or none for vertical decide later*/}
-          <Subcard />
-          <Subcard />
-
-          <Subcard />
-          <Subcard />
-          <Subcard />
-          <Subcard />
-          <Subcard />
-          <Subcard />
-          <Subcard />
+        {/* Hardcoded values shall be replaced with mock values later */}
+          <Subcard subject='English' slot='A' />
+          <Subcard subject='Data Structures' slot='B' />
+          <Subcard subject='App Design' slot='C' />
+          <Subcard subject='Object Oriented Programming' slot='D' />
+          <Subcard subject='Automata Theory' slot='E' />
+          <Subcard subject='Artificial Intelligence' slot='F' />
+          <Subcard subject='DevOps' slot='G' />
+          <Subcard subject='IOS Development' slot='H' />
           
         
       </div>
